@@ -6,7 +6,7 @@ import { FiCheck } from "react-icons/fi";
 import { Logo } from "./logo";
 
 const siteConfig = {
-  // logo: Logo,
+  logo: "",
   seo: {
     // title: "Saas UI",
     // description: "The React component library for startups",
@@ -18,13 +18,14 @@ const siteConfig = {
       {
         id: "faq",
         label: "FAQ",
+        href: "",
       },
     ],
   },
   footer: {
     copyright: (
       <>
-        Built by <Link href="https://twitter.com/redevs">Redevs</Link>
+        Built by <Link href="https://redevs.org/">Redevs</Link>
       </>
     ),
     links: [
